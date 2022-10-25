@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXWindowsGrabbing", "DXWindowsGrabbing\DXWindowsGrabbing.vcproj", "{E30C2AB3-BA89-4DA5-A13D-2EB56AAA4A71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VCap-DBP", "VCap-DBP\VCap-DBP.vcproj", "{09946101-D9EB-4363-853E-64832EBE0DBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WL-VCap", "WL-VCap\WL-VCap.vcproj", "{1CBB05C3-CA48-486A-A1E2-F01020C69706}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E30C2AB3-BA89-4DA5-A13D-2EB56AAA4A71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E30C2AB3-BA89-4DA5-A13D-2EB56AAA4A71}.Debug|Win32.Build.0 = Debug|Win32
+		{E30C2AB3-BA89-4DA5-A13D-2EB56AAA4A71}.Release|Win32.ActiveCfg = Release|Win32
+		{E30C2AB3-BA89-4DA5-A13D-2EB56AAA4A71}.Release|Win32.Build.0 = Release|Win32
+		{09946101-D9EB-4363-853E-64832EBE0DBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09946101-D9EB-4363-853E-64832EBE0DBA}.Debug|Win32.Build.0 = Debug|Win32
+		{09946101-D9EB-4363-853E-64832EBE0DBA}.Release|Win32.ActiveCfg = Release|Win32
+		{09946101-D9EB-4363-853E-64832EBE0DBA}.Release|Win32.Build.0 = Release|Win32
+		{1CBB05C3-CA48-486A-A1E2-F01020C69706}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1CBB05C3-CA48-486A-A1E2-F01020C69706}.Debug|Win32.Build.0 = Debug|Win32
+		{1CBB05C3-CA48-486A-A1E2-F01020C69706}.Release|Win32.ActiveCfg = Release|Win32
+		{1CBB05C3-CA48-486A-A1E2-F01020C69706}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

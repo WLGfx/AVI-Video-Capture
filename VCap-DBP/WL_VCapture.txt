@@ -1,0 +1,27 @@
+DBP-Extensions Functions list by WLGfx (started 02 Apr 12)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The DLL goes into the Compilers plugins-user directory and the INI file goes
+into the Editors keywords directory and you're ready to go...
+
+The current demo is an updated version of the rotating cube...
+
+WL CREATE BLANK OBJECT ObjectId, VertexCount, IndexCount, Fvf, Zeroise
+	Creates a blank object ready for editing using the lock vertex commands.
+
+WL IMAGE DOT ImageID, x, y, colour
+	Plots a pixel in the set colour (bounds checking built in).
+
+WL IMAGE PASTE TO IMAGE SrcID, DstID, DstX, DstY
+	Pastes an image onto another image with complete bounds checking. This
+	will also allow for larger images to be pasted at negative coords and
+	clipped. No checking for AA for full speed.
+
+WL MAKE BLANK IMAGE ImageID, Width, Height
+	Creates a blank image of the set dimensions.
+
+WL IMAGE CLS ImageID, Colour
+	Clears the contents of the images with the set colour.
+
+WL IMAGE FILL RECT ImageID, x, y, w, h, colour
+	Draws a filled rectangle in the set colour with full bounds checking.

@@ -1,0 +1,9 @@
+#include "resource.h"
+
+STRINGTABLE
+{
+	//IDS_STRING21	"NOISE GET HEIGHT[%FLFF%?PN_GetHeight@@YAKHMM@Z%float NOISE GET HEIGHT(int,float,float)"
+	IDS_STRING1		"VCAP INIT[%LSLLL%VCap_Init%"
+	IDS_STRING2		"VCAP ADD WINDOW%0%VCap_AddWindowFrame%"
+	IDS_STRING3		"VCAP CLOSE%0%VCap_Close%"
+}

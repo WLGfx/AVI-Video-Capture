@@ -1,0 +1,39 @@
+autocam off
+sync on
+sync rate 60
+
+make object cube 1, 10
+make object cylinder 2, -15
+color object 2, 0xff0000
+
+position camera 0, 0, -14
+
+sync
+
+avifile$    = "vcaptest.avi"
+frametime   = 30
+compression = 75
+overwrite   = 1
+
+if VCAP INIT(avifile$, frametime, compression, overwrite) then end
+
+count = 0
+
+while spacekey() = 0
+    yrotate object 1, wrapvalue( object angle y(1) + 0.7 )
+    xrotate object 1, wrapvalue( object angle x(1) + 0.9 )
+    yrotate object 2, wrapvalue( object angle y(2) + 0.9 )
+    xrotate object 2, wrapvalue( object angle x(2) + 0.7 )
+    
+    text 0, 0, "Press SPACE to finish recording..."
+    
+    sync
+    
+    count = ( count + 1 ) MOD 4
+    
+    if count = 0
+        VCAP ADD WINDOW
+    ENDIF
+ENDWHILE
+
+VCAP CLOSE
